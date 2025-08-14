@@ -55,6 +55,7 @@ typedef enum
     LPWR_MODE_G_TEST,
     LPWR_MODE_H_TEST,
     LPWR_MODE_I_TEST,
+    LPWR_MODE_J_TEST,
 
 } EN_LPWR_MODE_SEL_T;
 
