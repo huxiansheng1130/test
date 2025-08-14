@@ -41,6 +41,7 @@ typedef enum
     LPWR_MODE_DEEPSLEEP   = 0x03, /* SRAM will power down, LCLK clock will keep working(shutdown with 32K). */
     LPWR_MODE_HIBERNATION = 0x04, /* SRAM will power down, LCLK clock will turn off(shutdown without 32K). */
     LPWR_MODE_HIBERNATION_TEST,
+    LPWR_MODE_DEEPSLEEP_TEST,
 
 } EN_LPWR_MODE_SEL_T;
 
